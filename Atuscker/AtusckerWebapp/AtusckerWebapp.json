@@ -1,0 +1,18 @@
+[
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 1,
+        "fields": {
+    "productname":"Teeshirt",
+    "productdescription":"Great for hot weather"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 2,
+        "fields": {
+            "productname":"Trouser",
+            "productdescription":"Great for humid temepereatures"
+        }
+    }
+]
