@@ -6,17 +6,21 @@ from .serializers import ProductSerializer
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-
+from django.views.decorators.csrf import csrf_exempt
 @api_view(['GET','POST'])
+
+
 def index(request):
 
   return HttpResponse(request)
 
+@csrf_exempt
 def product_list(request):
    if request.method =='GET':
       products = Product.objects.all()
       serializer= ProductSerializer(products, many=True)
       return JsonResponse(serializer.data,safe=False)
+   
    if request.method == 'POST':
       serializer=ProductSerializer(data=request.data)
       if serializer.is_valid():
