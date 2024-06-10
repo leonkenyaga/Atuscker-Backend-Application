@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'Atuscker.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'test',
+       'NAME': 'atuscker',
        'USER': 'postgres',
        'PASSWORD': 'admin@123',
        'HOST': 'localhost',
