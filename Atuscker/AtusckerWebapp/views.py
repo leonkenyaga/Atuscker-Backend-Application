@@ -1,7 +1,7 @@
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
-from .models import Product
+from .models import Product,ProductImage
 from .serializers import ProductSerializer
 
 
@@ -48,3 +48,12 @@ def product_detail(request, pk):
     elif request.method == 'DELETE':
         product.delete()
         return HttpResponse(status=204)
+    
+def productimage_list(request):
+    """
+    List all products, or create a new product.
+    """
+    if request.method == 'GET':
+        productimages = ProductImage.objects.all()
+        serializer = ProductSerializer(productimages, many=True)
+        return JsonResponse(serializer.data, safe=False)
