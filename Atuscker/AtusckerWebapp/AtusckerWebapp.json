@@ -3,16 +3,128 @@
         "model": "AtusckerWebapp.product",
         "pk": 1,
         "fields": {
-    "productname":"Teeshirt",
-    "productdescription":"Great for hot weather"
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
     }
     },
     {
         "model": "AtusckerWebapp.product",
         "pk": 2,
         "fields": {
-            "productname":"Trouser",
-            "productdescription":"Great for humid temepereatures"
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 3,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 4,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 5,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 6,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 7,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"   
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 8,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black" 
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 9,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 10,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 11,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.product",
+        "pk": 12,
+        "fields": {
+    "name" : "Basic Tee",
+    "imageAlt": "Front of men's Basic Tee in black.",
+    "price" : 35,
+    "color" : "black"
+    }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 1,
+        "fields": {
+            "product":1,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
         }
     }
 ]
