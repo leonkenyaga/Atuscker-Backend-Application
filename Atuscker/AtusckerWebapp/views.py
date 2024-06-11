@@ -2,7 +2,7 @@ from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from .models import Product,ProductImage
-from .serializers import ProductSerializer
+from .serializers import ProductSerializer, ProductImageSerializer
 
 
 @csrf_exempt
@@ -48,12 +48,47 @@ def product_detail(request, pk):
     elif request.method == 'DELETE':
         product.delete()
         return HttpResponse(status=204)
-    
+
+@csrf_exempt   
 def productimage_list(request):
     """
-    List all products, or create a new product.
+    List all productimages, or create a new productimage.
     """
     if request.method == 'GET':
         productimages = ProductImage.objects.all()
-        serializer = ProductSerializer(productimages, many=True)
+        serializer = ProductImageSerializer(productimages, many=True)
         return JsonResponse(serializer.data, safe=False)
+    elif request.method == 'POST':
+        data = JSONParser().parse(request)
+        serializer = ProductImageSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return JsonResponse(serializer.data, status=201)
+        return JsonResponse(serializer.errors, status=400)
+
+@csrf_exempt
+def productimage_detail(request, pk):
+    """
+    Retrieve, update or delete a product.
+    """
+    try:
+        productimage = ProductImage.objects.get(pk=pk)
+    except ProductImage.DoesNotExist:
+        return HttpResponse(status=404)
+
+    if request.method == 'GET':
+        serializer = ProductImageSerializer(productimage)
+        return JsonResponse(serializer.data)
+
+    elif request.method == 'PUT':
+        data = JSONParser().parse(request)
+        serializer = ProductImageSerializer(productimage, data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return JsonResponse(serializer.data)
+        return JsonResponse(serializer.errors, status=400)
+
+    elif request.method == 'DELETE':
+        productimage.delete()
+        return HttpResponse(status=204)
+    
