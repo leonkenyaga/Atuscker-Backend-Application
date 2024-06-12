@@ -126,5 +126,189 @@
             "product":1,
             "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
         }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 2,
+        "fields": {
+            "product":1,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 3,
+        "fields": {
+            "product":2,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 4,
+        "fields": {
+            "product":2,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 5,
+        "fields": {
+            "product":3,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 6,
+        "fields": {
+            "product":3,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 7,
+        "fields": {
+            "product":4,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 8,
+        "fields": {
+            "product":4,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 9,
+        "fields": {
+            "product":5,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 10,
+        "fields": {
+            "product":5,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 11,
+        "fields": {
+            "product":6,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 12,
+        "fields": {
+            "product":6,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 13,
+        "fields": {
+            "product":7,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 14,
+        "fields": {
+            "product":7,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 15,
+        "fields": {
+            "product":8,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 16,
+        "fields": {
+            "product":8,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 17,
+        "fields": {
+            "product":9,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 18,
+        "fields": {
+            "product":9,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 19,
+        "fields": {
+            "product":10,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 20,
+        "fields": {
+            "product":10,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 21,
+        "fields": {
+            "product":11,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 22,
+        "fields": {
+            "product":11,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 23,
+        "fields": {
+            "product":12,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 24,
+        "fields": {
+            "product":12,
+            "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        }
     }
 ]
