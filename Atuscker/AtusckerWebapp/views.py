@@ -92,3 +92,25 @@ def productimage_detail(request, pk):
         productimage.delete()
         return HttpResponse(status=204)
     
+def productwithimages(request, pk):
+    if request.method=='GET':
+       product = Product.objects.get(pk=pk)
+       #productserializer = ProductSerializer(product)
+       productimages = ProductImage.objects.filter(product=pk)
+       #serializer = ProductImageSerializer(productimages, many=True)
+       data = {
+           'id':product.id,
+           'name':product.name,
+           'imageAlt':product.imageAlt,
+           'price':product.price,
+           'color':product.color,
+             'images': [
+        {
+            'id': image.id,  # Assuming 'ProductImage' model has an 'id' field
+            'url': image.imageSrc,  # Assuming 'image' field stores the image URL  # Assuming 'caption' field exists for image description
+        }
+        for image in productimages
+    ]
+       }
+    return JsonResponse(data)
+
