@@ -114,3 +114,10 @@ def productwithimages(request, pk):
        }
     return JsonResponse(data)
 
+def specificproductimages(request, pk):
+     if request.method=='GET':
+       
+       productimages = ProductImage.objects.filter(product=pk)
+       serializer = ProductImageSerializer(productimages, many=True)
+      
+     return JsonResponse(serializer.data, safe=False)
