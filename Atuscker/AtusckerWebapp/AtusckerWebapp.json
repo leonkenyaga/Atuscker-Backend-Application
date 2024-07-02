@@ -310,5 +310,13 @@
             "product":12,
             "imageSrc":  "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
         }
+    },
+    {
+        "model": "AtusckerWebapp.productimage",
+        "pk": 25,
+        "fields": {
+            "product":2,
+            "imageSrc":"https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+        }
     }
 ]
