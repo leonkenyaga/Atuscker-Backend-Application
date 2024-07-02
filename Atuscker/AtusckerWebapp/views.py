@@ -1,6 +1,7 @@
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
+from rest_framework import generics
 from .models import Product,ProductImage
 from .serializers import ProductSerializer, ProductImageSerializer
 
@@ -49,6 +50,12 @@ def product_detail(request, pk):
         product.delete()
         return HttpResponse(status=204)
 
+@csrf_exempt
+class ProductUpdateView(generics.UpdateAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer 
+
+
 @csrf_exempt   
 def productimage_list(request):
     """
@@ -69,7 +76,7 @@ def productimage_list(request):
 @csrf_exempt
 def productimage_detail(request, pk):
     """
-    Retrieve, update or delete a product.
+    Retrieve, update or delete a product image
     """
     try:
         productimage = ProductImage.objects.get(pk=pk)
