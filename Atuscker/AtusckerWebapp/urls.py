@@ -11,5 +11,6 @@ urlpatterns = [
     path('productimages/<int:pk>', views.productimage_detail),
     path('productwithimages/<int:pk>', views.productwithimages),
     path('specificproductimages/<int:pk>', views.specificproductimages),
+    path('specificCategoryproducts/<int:pk>', views.specificCategoryproducts),
     path('productupdate/<int:pk>/', ProductUpdateView)
 ]
