@@ -135,7 +135,7 @@ graphql-core==3.2.3
 graphql-relay==3.2.0
 greenlet==3.0.1
 gunicorn==22.0.0
-gyp-next==0.16.2
+gyp-next==0.18.1
 h11==0.14.0
 h2==4.1.0
 hashID==3.1.4
