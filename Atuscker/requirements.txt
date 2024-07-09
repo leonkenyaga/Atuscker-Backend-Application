@@ -313,7 +313,6 @@ PyQt6==6.4.2
 PyQt6-sip==13.6.0
 pyramid==2.0
 pyrsistent==0.20.0
-PySecretSOCKS==0.9.1
 pyserial==3.5
 pyShodan==0.2.6
 pysmi==0.3.4
