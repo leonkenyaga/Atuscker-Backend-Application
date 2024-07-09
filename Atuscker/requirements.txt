@@ -203,7 +203,6 @@ mdurl==0.1.2
 mechanize==0.4.10
 minidump==0.0.21
 minikerberos==0.4.4
-mistune0==0.8.4
 mitmproxy==10.2.3
 mnemonic==0.19
 more-itertools==10.2.0
