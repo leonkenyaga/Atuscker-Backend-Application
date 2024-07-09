@@ -183,7 +183,6 @@ kiwisolver==1.4.5
 ldap3==2.9.1
 ldapdomaindump==0.9.4
 limits==3.6.0
-llvmlite==0.39.1
 log-symbols==0.0.14
 louis==3.29.0
 lsassy==3.1.10
