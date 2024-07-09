@@ -90,7 +90,7 @@ dnslib==0.9.24
 dnsrecon==0.10.1
 dnspython==2.6.1
 docopt==0.6.2
-donut-shellcode==0.9.3
+donut-shellcode==1.0.2
 dropbox==11.36.2
 dsinternals==1.2.4
 ecdsa==0.19.0
