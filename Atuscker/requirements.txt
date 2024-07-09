@@ -222,7 +222,7 @@ notus-scanner==22.6.3
 nplusone==1.0.0
 numexpr==2.8.4
 numpy==1.24.2
-odfpy==1.4.2
+odfpy==1.4.1
 olefile==0.46
 onboard==1.4.1
 openpyxl==3.1.2
