@@ -342,7 +342,6 @@ PyTrie==0.4.0
 pytz==2024.1
 pytz-deprecation-shim==0.1.0.post0
 pytzdata==2020.1
-pyVNC==0.1
 pywerview==0.3.3
 pyxdg==0.28
 PyYAML==6.0.1
