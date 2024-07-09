@@ -379,7 +379,7 @@ simplejson==3.19.2
 simplekv==0.14.1
 six==1.16.0
 slowapi==0.1.4
-smbmap==1.9.2
+smbmap==1.10.4
 smmap==6.0.0
 smoke-zephyr==2.0.1
 sniffio==1.3.0
