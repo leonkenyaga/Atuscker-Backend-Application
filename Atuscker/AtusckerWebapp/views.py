@@ -128,3 +128,11 @@ def specificproductimages(request, pk):
        serializer = ProductImageSerializer(productimages, many=True)
       
      return JsonResponse(serializer.data, safe=False)
+
+def specificCategoryproducts(request, pk):
+     if request.method=='GET':
+       
+       products = Product.objects.filter(category=pk)
+       serializer = ProductSerializer(products, many=True)
+      
+     return JsonResponse(serializer.data, safe=False)
