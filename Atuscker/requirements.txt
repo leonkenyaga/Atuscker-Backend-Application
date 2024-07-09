@@ -409,7 +409,6 @@ tld==0.11.11
 tldextract==3.1.2
 tls-parser==1.2.2
 tomli==2.0.1
-torbrowser-launcher==0.3.7
 tornado==6.4
 tqdm==4.66.4
 traitlets==5.5.0
