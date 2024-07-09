@@ -212,7 +212,7 @@ msldap==0.5.10
 multidict==6.0.4
 mysqlclient==1.4.6
 nassl==5.0.1
-neo4j==5.2.dev0
+neo4j==5.22.0
 neobolt==1.7.17
 neotime==1.7.4
 netaddr==0.10.1
