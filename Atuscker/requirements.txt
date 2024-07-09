@@ -77,7 +77,6 @@ cssselect==1.2.0
 cvss==2.4
 cycler==0.12.1
 Cython==3.0.10
-debtags==2.1
 decorator==5.1.1
 defusedxml==0.7.1
 Deprecated==1.2.14
