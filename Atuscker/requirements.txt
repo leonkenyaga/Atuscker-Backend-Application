@@ -119,7 +119,7 @@ Flask-Security-Too==5.4.3
 Flask-SocketIO==5.3.6
 Flask-SQLAlchemy==3.0.3
 Flask-WTF==1.2.1
-flatbuffers==2.0.8+dfsg1
+flatbuffers==24.3.25
 fonttools==4.46.0
 frozenlist==1.4.0
 fs==2.4.16
