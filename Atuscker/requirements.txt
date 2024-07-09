@@ -46,7 +46,7 @@ bcrypt==3.2.2
 beautifulsoup4==4.12.3
 beniget==0.4.1
 bidict==0.23.1
-binwalk==2.3.3
+binwalk==2.1.0
 bitstruct==8.15.1
 bleach==6.1.0
 blinker==1.8.2
