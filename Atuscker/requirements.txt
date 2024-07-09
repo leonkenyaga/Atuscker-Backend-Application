@@ -239,7 +239,6 @@ PasteDeploy==3.1.0
 PasteScript==3.6.0
 patator==1.0
 pathspec==0.12.1
-pcapy==0.11.4
 pefile==2023.2.7
 pendulum==2.1.2
 pexpect==4.9.0
