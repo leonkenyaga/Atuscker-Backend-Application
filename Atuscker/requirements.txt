@@ -179,7 +179,6 @@ jsonpointer==2.4
 jsonschema==4.19.2
 jsonschema-specifications==2023.12.1
 kaitaistruct==0.10
-kali-tweaks==2023.3.2
 KismetCaptureBtGeiger==2021.7.1
 KismetCaptureFreaklabsZigbee==2018.7.0
 KismetCaptureRtl433==2020.10.1
