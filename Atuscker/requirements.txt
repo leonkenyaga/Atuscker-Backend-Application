@@ -320,7 +320,6 @@ pysnmp==4.4.12
 PySocks==1.7.1
 pyspnego==0.8.0
 pytest==7.4.4
-python-apt==2.5.3
 python-dateutil==2.9.0
 python-debian==0.1.49
 python-debianbts==4.0.2
