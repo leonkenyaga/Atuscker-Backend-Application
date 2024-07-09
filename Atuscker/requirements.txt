@@ -302,7 +302,7 @@ pyotp==2.9.0
 pyparsing==3.1.2
 pypdf==4.2.0
 PyPDF2==2.12.1
-pypng==0.20231004.0
+pypng==0.20220715.0
 pyppeteer==1.0.1
 pypsrp==0.8.1
 pypykatz==0.6.6
