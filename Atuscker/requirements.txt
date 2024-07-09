@@ -350,7 +350,7 @@ Quamash==0.6.1
 reactivex==4.0.4
 redis==4.3.4
 referencing==0.31.0
-reportbug==13.0.1
+reportbug==0.0.129
 repoze.lru==0.7
 requests==2.31.0
 requests-file==2.0.0
