@@ -595,7 +595,6 @@ websockify==0.10.0
 Werkzeug==3.0.3
 wfuzz==2.2.0
 whois==0.8
-wifite==2.7.0
 winacl==0.1.7
 wrapt==1.15.0
 wsaccel==0.6.3
